@@ -19,5 +19,15 @@ const page2 = {
   accounts: ['Alex'],
   status: 'close',
 }
+type Page = {
+  title: string
+  likes: number,
+  accounts: string[],
+  status: 'close' | 'open',
+  details?: {
+    createAt: {},
+    updateAt: {},
+  }
+}
 
 export {};
