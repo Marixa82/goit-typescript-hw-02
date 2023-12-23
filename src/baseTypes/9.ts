@@ -25,8 +25,8 @@ type Page = {
   accounts: string[],
   status: 'close' | 'open',
   details?: {
-    createAt: {},
-    updateAt: {},
+    createAt: Date,
+    updateAt?: Date,
   }
 }
 
